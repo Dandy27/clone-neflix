@@ -55,17 +55,18 @@ class _HomeScreenState extends State<HomeScreen> {
                         SingleChildScrollView(
                           scrollDirection: Axis.horizontal,
                           child: Row(
-                            children:
-                                List.generate(minhaLista.length, ( index) {
+                            children: List.generate(minhaLista.length, (index) {
                               return Container(
                                 margin: const EdgeInsets.only(right: 8),
                                 width: 100,
                                 height: 150,
                                 decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(6),
                                     image: DecorationImage(
                                         image: AssetImage(
                                             // ignore: unnecessary_parenthesis
-                                            (minhaLista[index]['img']) as String),
+                                            (minhaLista[index]['img'])
+                                                as String),
                                         fit: BoxFit.cover)),
                               );
                             }),
