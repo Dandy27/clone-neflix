@@ -27,13 +27,13 @@ class _RootAppState extends State<RootApp> {
       index: activeTab,
       children: [
         HomeScreen(),
-        Center(
-          child: Text(
+        const Center(
+          child:   Text(
             'Em breve',
             style: TextStyle(fontSize: 20, color: Colors.white),
           ),
         ),
-        Center(
+        const Center(
           child: Text(
             'Downloads',
             style: TextStyle(fontSize: 20, color: Colors.white),

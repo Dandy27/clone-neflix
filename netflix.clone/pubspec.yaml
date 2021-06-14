@@ -24,7 +24,6 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.3
-  # flutter_icons: ^1.1.0
   fluttericon: ^2.0.0
   lint: ^1.5.3
   material_design_icons_flutter: ^5.0.5955-rc.1
